@@ -320,7 +320,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Empowering mathematical exploration and analysis with professional-grade tools, intuitive design, and enterprise-level capabilities.**
 
-*Built with ❤️ by [Sherin Joseph Roy](https://sherinjosephroy.link) | [DeepMost AI](https://deepmost.ai)*
+*Built with ❤️ by [Sherin Joseph Roy](https://sherinjosephroy.link) | [DeepMost AI](https://deepmostai.com)*
 
 ---
 
