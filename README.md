@@ -1,3 +1,16 @@
+---
+title: Scientific Calculator Pro
+emoji: 🧮
+colorFrom: blue
+colorTo: orange
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+license: mit
+short_description: Professional-grade scientific calculator with advanced mathematical computations, ML, and data visualization
+---
+
 # 🧮 Scientific Calculator Pro
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
@@ -245,117 +258,19 @@ scientific-calculator-pro/
 
 ### Dependencies
 - **Gradio**: Web interface framework
-- **NumPy**: Numerical computations
+- **NumPy**: Numerical computing
 - **SciPy**: Scientific computing
 - **SymPy**: Symbolic mathematics
 - **Pandas**: Data manipulation
 - **Plotly**: Interactive visualizations
-- **Matplotlib**: Static plotting
+- **Scikit-learn**: Machine learning
 - **Statsmodels**: Statistical modeling
 
 ### Performance
-- **Optimized Algorithms**: Efficient mathematical computations
-- **Memory Management**: Proper cleanup of large datasets
-- **Caching**: Result caching for repeated calculations
-- **Lazy Loading**: Modules loaded only when needed
-
-### Security
-- **Input Validation**: Comprehensive input sanitization
-- **Safe Evaluation**: Restricted mathematical expression evaluation
-- **Error Handling**: Graceful error recovery and user feedback
-- **File Validation**: Secure file upload and processing
-
-## 📚 API Reference
-
-### Calculator Functions
-```python
-# Basic calculation
-result = calculator.calculate("2 + 3 * sin(π/4)")
-
-# Equation solving
-solutions = calculator.solve_equation("x^2 - 5*x + 6 = 0", "x")
-```
-
-### Matrix Operations
-```python
-# Matrix operations
-result = matrix_calc.add_matrices(matrix1, matrix2)
-determinant = matrix_calc.determinant(matrix)
-eigenvalues = matrix_calc.eigenvalues(matrix)
-```
-
-### Statistical Analysis
-```python
-# Descriptive statistics
-stats = stats_analyzer.descriptive_stats(data)
-
-# Correlation analysis
-correlation = stats_analyzer.correlation_analysis(x_data, y_data)
-
-# Hypothesis testing
-t_test = stats_analyzer.t_test(data1, data2)
-```
-
-### Data Visualization
-```python
-# Create plots
-fig = visualizer.line_plot(x_data, y_data, "My Plot")
-fig = visualizer.scatter_plot(x_data, y_data)
-fig = visualizer.histogram(data, bins=30)
-```
-
-## 🧪 Testing
-
-Run the test suite:
-```bash
-python -m pytest tests/
-```
-
-### Test Coverage
-- **Unit Tests**: All mathematical functions and operations
-- **Integration Tests**: End-to-end workflow testing
-- **UI Tests**: Interface responsiveness and functionality
-- **Performance Tests**: Large dataset handling and optimization
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow PEP 8 style guidelines
-- Write comprehensive docstrings
-- Include unit tests for new features
-- Update documentation as needed
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Gradio Team**: For the excellent web interface framework
-- **NumPy/SciPy Communities**: For the robust scientific computing libraries
-- **Plotly**: For the interactive visualization capabilities
-- **Mathematical Libraries**: SymPy, Pandas, and Statsmodels for comprehensive functionality
-
-## 📞 Support
-
-- **Documentation**: Check the inline help and examples
-- **Issues**: Report bugs and feature requests via GitHub Issues
-- **Discussions**: Join the community discussions for questions and ideas
-
-## 🚀 Future Enhancements
-
-- **Machine Learning**: Integration with scikit-learn for ML workflows
-- **Advanced Visualizations**: 3D plotting and interactive dashboards
-- **Cloud Storage**: Integration with cloud storage providers
-- **Collaboration**: Multi-user support and sharing capabilities
-- **Mobile App**: Native mobile applications
-- **API Endpoints**: REST API for programmatic access
+- **Real-time Calculations**: Optimized for speed and accuracy
+- **Memory Efficient**: Smart caching and resource management
+- **Scalable**: Handles large datasets and complex computations
+- **Cross-platform**: Works on Windows, macOS, and Linux
 
 ## 🚀 Future Enhancements & Roadmap
 
@@ -411,5 +326,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### 🔍 **SEO Keywords & Tags**
 `scientific calculator`, `mathematical computing`, `statistical analysis`, `data visualization`, `machine learning`, `financial calculator`, `linear algebra`, `matrix operations`, `gradio`, `python`, `hugging face spaces`, `enterprise AI`, `data science`, `mathematics`, `statistics`, `calculus`, `optimization`, `regression analysis`, `Sherin Joseph Roy`, `DeepMost AI`
-
-
