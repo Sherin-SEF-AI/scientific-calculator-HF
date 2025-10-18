@@ -1,0 +1,11 @@
+gradio
+numpy
+scipy
+sympy
+pandas
+plotly
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+openpyxl
